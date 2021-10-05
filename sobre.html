@@ -103,8 +103,8 @@
               oninput="ga('send', 'event', 'contato', 'telefone', 'preencheu')" data-form-input-tel>
           </li>
           <li> <label for="aceito">Aceito que entrem em contato</label> <input type="checkbox" id="aceito"
-              oninput="ga('send', 'event', 'contato', 'aceito', 'preencheu')" data-form-input-aceito> </li>
-          <li> <button type="submit" data-form-button-submit>Enviar</button> </li> <!--  onsubmit="ga()" -->
+              oninput="window.ga('send', 'event', 'contato', 'aceito', 'preencheu')" data-form-input-aceito> </li>
+          <li> <button type="submit" data-form-button-submit>Enviar</button> </li>
         </ul>
       </form><br><br>
       <h3 id="historia" class="secao-subtitulo">História</h3>
