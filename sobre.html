@@ -2,14 +2,6 @@
 <html lang="pt-br">
 
 <head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb# article: http://ogp.me/ns/article#">
-  <!-- Google Analytics -->
-  <script>
-    window.ga = window.ga || function () { (ga.q = ga.q || []).push(arguments) }; ga.l = +new Date;
-    ga('create', 'UA-12345-6', 'auto');
-    ga('send', 'pageview', location.pathname);
-  </script>
-  <script async src='https://www.google-analytics.com/analytics.js'></script>
-  <!-- End Google Analytics -->
   <meta charset="UTF-8">
   <title>DP6 Case - Prova Técnica</title>
   <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -64,13 +56,12 @@
       </li>
       <li class="menu-lista-item">
         <a href="http://www.dp6.com.br/contato/" target="_blank" class="menu-lista-link menu-lista-contato"
-          onclick="ga('send', 'event', 'menu', 'entre_em_contato', 'link_externo')" data-menu-lista-contato>Entre em
+          data-menu-lista-contato>Entre em
           Contato</a>
       </li>
       <li class="menu-lista-item">
         <a href="http://autos.dp6.com.br/autos_revista_vfinal.pdf" class="menu-lista-link menu-lista-download"
-          target="_pdf" onclick="ga('send', 'event', 'menu', 'download_pdf', 'download_pdf')"
-          data-menu-lista-download>Download PDF</a>
+          target="_pdf" data-menu-lista-download>Download PDF</a>
       </li>
     </ul>
     <div class="menu-rodape">
@@ -93,17 +84,16 @@
       <h3 id="contato" class="secao-subtitulo">Contato</h3>
       <form class="contato">
         <ul>
-          <li> <label for="nome">Nome</label> <input type="text" id="nome" placeholder="Nome Teste"
-              oninput="ga('send', 'event', 'contato', 'nome', 'preencheu')" data-form-input-nome>
+          <li> <label for="nome">Nome</label> <input type="text" id="nome" placeholder="Nome Teste" data-form-input-nome>
           </li>
           <li> <label for="email">E-Mail</label> <input type="email" id="email" placeholder="email@dominio.com"
-              oninput="ga('send', 'event', 'contato', 'email', 'preencheu')" data-form-input-email>
+              data-form-input-email>
           </li>
           <li> <label for="telefone">Telefone</label> <input type="tel" id="telefone" placeholder="(11) 4455-4455"
-              oninput="ga('send', 'event', 'contato', 'telefone', 'preencheu')" data-form-input-tel>
+              data-form-input-tel>
           </li>
           <li> <label for="aceito">Aceito que entrem em contato</label> <input type="checkbox" id="aceito"
-              oninput="window.ga('send', 'event', 'contato', 'aceito', 'preencheu')" data-form-input-aceito> </li>
+              data-form-input-aceito> </li>
           <li> <button type="submit" data-form-button-submit>Enviar</button> </li>
         </ul>
       </form><br><br>

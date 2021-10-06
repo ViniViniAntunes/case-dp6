@@ -63,8 +63,7 @@
       console.log('enviado');
       lb.find('.lightbox-icon')
         .attr('src', 'img/logo-dp6-square.png')
-        .attr('alt', 'Logo DP6')
-        .attr('onsubmit', window.ga('send', 'event', 'contato', 'enviado', 'enviado'));
+        .attr('alt', 'Logo DP6');
       lb.find('.lightbox-title').text('Contato enviado');
       lbContent.html('Obrigado pelo seu contato!').scrollTop(0);
       setTimeout(function () {
