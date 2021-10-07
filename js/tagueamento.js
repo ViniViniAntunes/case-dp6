@@ -132,7 +132,7 @@
         });
 
         // Submeteu o formulário
-        const form = document.querySelector('[data-form');
+        const form = document.querySelector('[data-form]');
         // console.log(form);
         form.addEventListener('submit', function () {
             enviaEvento('contato', 'enviado', 'enviado');
