@@ -18,7 +18,7 @@
       <span class="lightbox-title">lorum</span>
       <img class="lightbox-fechar" src="img/icon/x_cinza.png" alt="Fechar Lightbox">
     </div>
-    <div class="lightbox-content"></div>
+    <div class="lightbox-content"></div> <!-- Aqui vai entrar o conteúdo do popup -->
   </div>
   <link rel="stylesheet" href="css/menu.css">
   <div class="menu-backdrop"></div>
@@ -82,7 +82,7 @@
 
       <h2 class="secao-titulo">Sobre</h2>
       <h3 id="contato" class="secao-subtitulo">Contato</h3>
-      <form class="contato">
+      <form class="contato" data-form>
         <ul>
           <li> <label for="nome">Nome</label> <input type="text" id="nome" placeholder="Nome Teste" data-form-input-nome>
           </li>
@@ -94,7 +94,7 @@
           </li>
           <li> <label for="aceito">Aceito que entrem em contato</label> <input type="checkbox" id="aceito"
               data-form-input-aceito> </li>
-          <li> <button type="submit" data-form-button-submit>Enviar</button> </li>
+          <li> <button type="submit"  data-form-button>Enviar</button> </li>
         </ul>
       </form><br><br>
       <h3 id="historia" class="secao-subtitulo">História</h3>
